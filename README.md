@@ -26,6 +26,10 @@ Authentication
 
 "credentials.json" file -> download OAuth2 Client Id from Google Cloud Console
 Save "credentials.json" in same directory as gsc_api_gui.py
-If there is no webmaster_credentials.dat file in your directory a browser window will open when you run the program
-Follow the steps to log in and copy paste the authentication code from the URL in the browser into the GUI application
-Authentication code is everything after the "code=" and before the final '#' char
+If there is no webmaster_credentials.dat file in your directory
+A Browser window will open when you run the program
+Follow the steps in the browser to login
+Copy paste the authentication code 
+From the URL in the browser to the GUI application
+Authentication code is everything after the "code=" 
+And before the final '#' char
