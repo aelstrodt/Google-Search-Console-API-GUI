@@ -24,12 +24,10 @@ Python Modules Installation:
 
 Authentication
 
-"credentials.json" file -> download OAuth2 Client Id from Google Cloud Console
-Save "credentials.json" in same directory as gsc_api_gui.py
-If there is no webmaster_credentials.dat file in your directory
-A Browser window will open when you run the program
-Follow the steps in the browser to login
-Copy paste the authentication code 
-From the URL in the browser to the GUI application
-Authentication code is everything after the "code=" 
-And before the final '#' char
+*Download OAuth2 Client Id from Google Cloud Console. 
+*Save "credentials.json" in same directory as gsc_api_gui.py
+*A Browser window will open when you run the program
+*Follow the steps in the browser to login
+*Copy paste the authentication code 
+*From the URL in the browser to the GUI application
+*Authentication code is everything after the "code=" and before the final '#' char
