@@ -11,15 +11,16 @@ import pandas as pd
 
 WEBMASTER_CREDENTIALS_FILE_PATH = "webmaster_credentials.dat"
 SECRETS_FILE = 'credentials.json'
-CATEGORIES = ["authPermissions","flashContent","manyToOneRedirect","notFollowed",
-              "notFound","other","roboted","serverError","soft404"]
-PLATFORMS = ["mobile","smartphoneOnly","web"]
+CATEGORIES = ["authPermissions", "flashContent", "manyToOneRedirect",
+              "notFollowed", "notFound", "other", 
+              "roboted", "serverError", "soft404"]
+PLATFORMS = ["mobile", "smartphoneOnly", "web"]
 BOOL = ['true', 'false']
 EMPTY = ""
-SEARCHTYPES = ["image","video","web"]
-DIMENSIONS = ['country','device','page','query','search','searchAppearance']
+SEARCHTYPES = ["image", "video", "web"]
+DIMENSIONS = ['country', 'device', 'page', 'query', 'search', 'searchAppearance']
 OPERATORS = ['contains', 'equals', 'notContains', 'notEquals']
-AGGTYPES = ['auto','byPage','byProperty']
+AGGTYPES = ['auto', 'byPage', 'byProperty']
 ID = 0
 
 class Request(tk.Frame):
@@ -73,7 +74,7 @@ class Request(tk.Frame):
                     }
         self.response = None
         self.service = None
-        self.filter_names = ['dimension','operator','expression']
+        self.filter_names = ['dimension', 'operator', 'expression']
         self.saved_label = tk.Label(self.frame_3, text='Response Saved!')
         self.exit_button = tk.Button(self.frame_3, text = 'Exit', command = self.done)
         self.request_label = tk.Label(self.frame_3, text = "Making request...")
